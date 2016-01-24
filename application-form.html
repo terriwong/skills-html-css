@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css">
+        <meta charset="UTF-8">
+        <title>Skills-HTML-CSS</title>
+    </head>
+    <body>
+        <!-- your html goes here -->
+        <h1>Application Form</h1>
+        <p class="instruction-box">Please fill in the application form below properly and hit the submit button to submit.</p>
+        <form action="/application" method="POST">
+            First name:<input type="text" name="firstname"><br>
+            <span>Last name:<input type="text" name="lastname"></span><br>
+            Salary requirement:<input type="text" name="salary_requirement" placeholder="give a number"><br>
+            <input type="radio" name="job" value="software_engineer">Software Engineer<br>
+            <input type="radio" name="job" value="QA_engineer">QA Engineer<br>
+            <input type="radio" name="job" value="product_manager">Product Manager<br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
